@@ -11,10 +11,10 @@ class Config:
     """Config class for variables."""
 
     LOGGER = True
-    BOT_TOKEN = config("6582120066:AAGxb3R3MCtNQa9Njn4xy_JSlVvJlLQZC90", default=None)
-    API_ID = int(config("25679032", default="123"))
-    API_HASH = config("0e72d42a68c2ee079ac0fd316b7a6fa7", default=None)
-    OWNER_ID = int(config("6302330259", default=1344569458))
+    BOT_TOKEN = config("BOT_TOKEN", default=None)
+    API_ID = int(config("API_ID", default="123"))
+    API_HASH = config("API_HASH", default=None)
+    OWNER_ID = int(config("OWNER_ID", default=1344569458))
     MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=-100))
     DEV_USERS = [
         int(i)
